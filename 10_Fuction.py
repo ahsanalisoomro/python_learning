@@ -38,3 +38,17 @@ def student(firstname, lastname):
 # Keyword arguments
 student(firstname='Python', lastname='Practice')
 student(lastname='Practice', firstname='Python')
+
+
+
+
+name = str(input("Enter Your Name :"))
+def student(name):
+
+    if(name == "Ahsan" ):
+      print("You Are Student Of Sukkur IBA University")
+    else:
+      print("You Are Not Student Of SIBA")
+
+
+student(name)
