@@ -40,7 +40,7 @@ student(firstname='Python', lastname='Practice')
 student(lastname='Practice', firstname='Python')
 
 
-
+print("-------- Practice With Fuction ---------")
 
 name = str(input("Enter Your Name :"))
 def student(name):
@@ -52,3 +52,23 @@ def student(name):
 
 
 student(name)
+
+
+print("----- Grading Exercise With Fuction ------")
+
+marks = int(input("Enter Your Marks For Grades : "))
+def grade(marks):
+    if(marks>90 and marks<100):
+      print("You Got A1 grade And Excellent")
+    elif(marks>85 and marks<90):
+      print("You Got A grade And good")
+    elif(marks>75 and marks<85):
+      print("You Got B grade And satisfactory")
+    elif(marks>65 and marks<75):
+      print("You Got C grade And passing")
+    elif(marks>50 and marks<65):
+      print("You Are Just Pass")
+    else:
+      print("Bullshit Your Are Fail In Exam")
+
+grade(marks)
