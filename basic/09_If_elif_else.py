@@ -36,3 +36,16 @@ elif(Age>30):
     print("Atif Is Statring Job")
 else:
     print("Atif BABY Boy No Enter In School")
+
+print("----------- 3rd Program -------------")
+
+budget = int(input("Enter The Budget for Food : "))
+
+if (budget > 1000 and budget < 1999):
+    print("We are Eat Karahi in Evening")
+elif (budget > 1999 and budget < 4999):
+    print("We Are Eat Biryani With Raita On Friday")   
+elif (budget > 4999):
+    print("We Are Decide BBQ Platter With Qabuli Pulao") 
+else:
+    print("Paisa Hy Nahi Batien Suno Janab Ki")
