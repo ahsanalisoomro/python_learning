@@ -1,4 +1,8 @@
 # Python program to illustrate
+# Basic Program
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
 # while loop
 count = 0
 while (count < 3):
