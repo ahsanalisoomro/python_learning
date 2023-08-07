@@ -3,6 +3,12 @@
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
+
+
+for b in range(6):
+  print(b)
+else:
+  print("Finally finished!")
 # while loop
 count = 0
 while (count < 3):
