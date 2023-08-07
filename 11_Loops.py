@@ -7,6 +7,13 @@ languages = ['Swift', 'Python', 'Go', 'JavaScript']
 for language in languages:
     print(language)
   #-----------------------------
+digits = [0, 1, 5]
+
+for i in digits:
+    print(i)
+else:
+    print("No items left.")
+#----------------------------------
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
