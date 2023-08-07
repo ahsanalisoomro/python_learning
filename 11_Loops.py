@@ -1,22 +1,30 @@
 # Python program to illustrate
 # Basic Program
+
+languages = ['Swift', 'Python', 'Go', 'JavaScript']
+
+# run a loop for each item of the list
+for language in languages:
+    print(language)
+  #-----------------------------
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
 
-
+#--------------------------------------
 for b in range(6):
   print(b)
 else:
   print("Finally finished!")
 
-
+#--------------------------------------
 adj = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
 
 for a in adj:
   for h in fruits:
     print(a, h)
+#--------------------------------------
 # while loop
 count = 0
 while (count < 3):
