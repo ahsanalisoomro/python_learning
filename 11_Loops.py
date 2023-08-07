@@ -9,6 +9,14 @@ for b in range(6):
   print(b)
 else:
   print("Finally finished!")
+
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for a in adj:
+  for h in fruits:
+    print(a, h)
 # while loop
 count = 0
 while (count < 3):
