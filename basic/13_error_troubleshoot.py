@@ -5,3 +5,6 @@ amount = 10000
 #  purchase Dsa Self Paced or not
 # if(amount > 2999):
 # print("You are eligible to purchase Dsa Self Paced")
+
+# initialize the amount variable
+marks = 10000
