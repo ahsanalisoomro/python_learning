@@ -22,3 +22,7 @@ print(sys.path)
 
 x = [10,20,80,6,100, 20]
 print("means of x is :", statistics.mean(x))
+
+
+print("median of x is :", statistics.median(x))
+
