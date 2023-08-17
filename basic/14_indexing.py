@@ -27,3 +27,7 @@ print(list1.index(1, 1, 7))
   
 list2 = ['cat', 'bat', 'mat', 'cat', 
          'get', 'cat', 'sat', 'pet']
+
+# Will print index of 'cat' in sublist
+# having index from 2 to 6
+print(list2.index('cat', 2, 6 ))
