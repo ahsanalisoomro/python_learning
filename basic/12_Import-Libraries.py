@@ -13,3 +13,12 @@ from math import sqrt, factorial
 # are required.
 print(sqrt(16))
 print(factorial(6))
+
+# importing sys module
+import sys
+  
+# importing sys.path
+print(sys.path)
+
+x = [10,20,80,6,100, 20]
+print("means of x is :", statistics.mean(x))
