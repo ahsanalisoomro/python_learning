@@ -60,3 +60,10 @@ list = ["geeks", "for", "geeks"]
 for index in range(len(list)):
     print(list[index])
 
+
+for count in range(2, 30, 3):
+  print(count)
+
+
+
+
