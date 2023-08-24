@@ -72,3 +72,16 @@ def grade(marks):
       print("Bullshit Your Are Fail In Exam")
 
 grade(marks)
+
+
+# returning the function
+
+def convert_seconds(seconds):
+   hours = seconds//3600
+   minutes = (seconds - hours*3600)//60
+   remaining_sec = seconds - hours*3600 - minutes*60
+   return hours,minutes,remaining_sec
+
+
+hours,minutes,seconds= convert_seconds(200000)
+print(hours,minutes,seconds)
